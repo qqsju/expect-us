@@ -1,9 +1,71 @@
-![Auto Assign](https://github.com/qqsju/demo-repository/actions/workflows/auto-assign.yml/badge.svg)
+![Auto Assign](https://github.com/qqsju/expect-us/actions/workflows/auto-assign.yml/badge.svg)
+![Proof HTML](https://github.com/qqsju/expect-us/actions/workflows/proof-html.yml/badge.svg)
 
-![Proof HTML](https://github.com/qqsju/demo-repository/actions/workflows/proof-html.yml/badge.svg)
+<div align="center">
 
-# Welcome to your organization's demo respository
-This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
+```
+  _____  __   __ _____  ______  ______ _______      _    _  _____
+ |  ___|\ \ / /|  __ \|  ____|/ _____/|__   __|    | |  | |/ ____|
+ | |__   \ V / | |__) | |__  | |         | |       | |  | | (___
+ |  __|   > <  |  ___/|  __| | |         | |       | |  | |\___ \
+ | |___  / . \ | |    | |____| |_____    | |       | |__| |____) |
+ |_____|/_/ \_\|_|    |______|\______|   |_|        \____/|_____/
+```
 
-The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.
+**We are Anonymous. We are Legion. We do not forgive. We do not forget.**
 
+*Expect Us.*
+
+</div>
+
+---
+
+## About
+
+**expect-us** is a small independent tech collective focused on open-source development, security research, and building tools that matter.
+
+We believe in transparency, accountability, and the power of code to change things.
+
+---
+
+## Members
+
+| Handle | Role |
+|--------|------|
+| [@qqsju](https://github.com/qqsju) | Founder |
+| [@36go](https://github.com/36go) | Core Member |
+
+---
+
+## Repositories
+
+> Projects will be listed here as they go public.
+
+---
+
+## Principles
+
+- Code is speech.
+- Open source by default.
+- No surveillance. No backdoors. No compromise.
+- Small team. Sharp focus.
+
+---
+
+## Contributing
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting issues or pull requests.
+
+---
+
+## Security
+
+Found a vulnerability? See [SECURITY.md](SECURITY.md).
+
+---
+
+<div align="center">
+
+`// We are expect-us`
+
+</div>

@@ -1,9 +1,14 @@
 {
-  "name": "demo-repo",
-  "version": "0.2.0",
-  "description": "A sample package.json",
+  "name": "expect-us",
+  "version": "1.0.0",
+  "description": "expect-us — open-source tech collective",
+  "homepage": "https://github.com/qqsju/expect-us",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qqsju/expect-us.git"
+  },
   "dependencies": {
-    "@primer/css": "17.0.1"
+    "@primer/css": "21.3.1"
   },
   "license": "MIT"
 }
