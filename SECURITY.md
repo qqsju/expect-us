@@ -12,7 +12,7 @@
 
 Contact the maintainer privately:
 
-- GitHub: [@qqsju](https://github.com/qqsju)
+- GitHub: [@hz8n](https://github.com/hz8n)
 
 Include:
 1. Description of the vulnerability

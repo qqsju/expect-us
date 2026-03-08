@@ -2,10 +2,10 @@
   "name": "expect-us",
   "version": "1.0.0",
   "description": "expect-us — open-source tech collective",
-  "homepage": "https://github.com/qqsju/expect-us",
+  "homepage": "https://github.com/hz8n/expect-us",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qqsju/expect-us.git"
+    "url": "https://github.com/hz8n/expect-us.git"
   },
   "dependencies": {
     "@primer/css": "21.3.1"

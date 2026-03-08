@@ -1,5 +1,5 @@
-![Auto Assign](https://github.com/qqsju/expect-us/actions/workflows/auto-assign.yml/badge.svg)
-![Proof HTML](https://github.com/qqsju/expect-us/actions/workflows/proof-html.yml/badge.svg)
+![Auto Assign](https://github.com/hz8n/expect-us/actions/workflows/auto-assign.yml/badge.svg)
+![Proof HTML](https://github.com/hz8n/expect-us/actions/workflows/proof-html.yml/badge.svg)
 
 <div align="center">
 
@@ -32,7 +32,7 @@ We believe in transparency, accountability, and the power of code to change thin
 
 | Handle | Role |
 |--------|------|
-| [@qqsju](https://github.com/qqsju) | Founder |
+| [@hz8n](https://github.com/hz8n) | Founder |
 | [@36go](https://github.com/36go) | Core Member |
 
 ---

@@ -21,7 +21,7 @@ expect-us is a small, focused collective. We hold ourselves to a simple standard
 ## Enforcement
 
 Violations may result in removal from the project without warning.
-Report issues to the project maintainer: [@qqsju](https://github.com/qqsju)
+Report issues to the project maintainer: [@hz8n](https://github.com/hz8n)
 
 ---
 

@@ -3,7 +3,7 @@ name: Bug Report
 about: Report a bug or unexpected behavior
 title: "[BUG] "
 labels: bug
-assignees: qqsju, 36go
+assignees: hz8n, 36go
 ---
 
 ## Description

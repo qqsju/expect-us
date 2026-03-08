@@ -3,7 +3,7 @@ name: Feature Request
 about: Suggest a new feature or improvement
 title: "[FEATURE] "
 labels: enhancement
-assignees: qqsju, 36go
+assignees: hz8n, 36go
 ---
 
 ## Summary
