@@ -32,52 +32,83 @@
     .container {
       max-width: 680px;
       width: 100%;
-      text-align: center;
     }
 
+    /* ── ASCII ── */
     .ascii {
       color: var(--green);
       font-size: clamp(0.35rem, 1.2vw, 0.7rem);
       line-height: 1.2;
       white-space: pre;
       margin-bottom: 2.5rem;
+      text-align: center;
       text-shadow: 0 0 8px var(--green);
     }
 
+    /* ── Section wrapper ── */
+    .section {
+      margin-bottom: 2.5rem;
+    }
+
+    /* ── English block ── */
+    .en {
+      text-align: left;
+      direction: ltr;
+    }
+
+    /* ── Arabic block ── */
+    .ar {
+      text-align: right;
+      direction: rtl;
+    }
+
+    /* ── Divider ── */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 2rem 0;
+    }
+
+    /* ── Labels ── */
+    .lang-label {
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.8rem;
+    }
+
+    /* ── Tagline ── */
     .tagline {
       color: var(--muted);
       font-size: 0.75rem;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      margin-bottom: 0.6rem;
+      letter-spacing: 0.12em;
+      margin-bottom: 0.4rem;
     }
 
+    /* ── Slogan ── */
     .slogan {
       color: var(--green);
       font-size: 1.1rem;
       letter-spacing: 0.05em;
-      margin-bottom: 3rem;
+      margin-bottom: 1.5rem;
       text-shadow: 0 0 6px var(--green);
     }
 
-    .divider {
-      border: none;
-      border-top: 1px solid var(--border);
-      margin: 2.5rem auto;
-      width: 60%;
-    }
-
+    /* ── Members ── */
     .members {
       display: flex;
-      gap: 1.5rem;
-      justify-content: center;
-      margin-bottom: 3rem;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
       flex-wrap: wrap;
     }
 
+    .en .members { justify-content: flex-start; }
+    .ar .members { justify-content: flex-end; }
+
     .member {
       border: 1px solid var(--border);
-      padding: 1rem 1.5rem;
+      padding: 0.8rem 1.2rem;
       background: var(--surface);
       text-decoration: none;
       color: var(--text);
@@ -89,66 +120,51 @@
       color: var(--green);
     }
 
-    .member .handle {
-      font-size: 1rem;
-      color: var(--green);
-    }
-
+    .member .handle { font-size: 1rem; color: var(--green); }
     .member .role {
-      font-size: 0.7rem;
+      font-size: 0.65rem;
       color: var(--muted);
       margin-top: 0.3rem;
-      letter-spacing: 0.1em;
+      letter-spacing: 0.08em;
       text-transform: uppercase;
     }
 
+    /* ── Principles ── */
     .principles {
-      text-align: left;
-      margin-bottom: 3rem;
       border: 1px solid var(--border);
-      padding: 1.5rem;
+      padding: 1.2rem 1.4rem;
       background: var(--surface);
     }
 
     .principles h2 {
       color: var(--green);
-      font-size: 0.75rem;
+      font-size: 0.7rem;
       letter-spacing: 0.2em;
       text-transform: uppercase;
-      margin-bottom: 1rem;
+      margin-bottom: 0.8rem;
     }
 
-    .principles ul {
-      list-style: none;
-      padding: 0;
-    }
+    .principles ul { list-style: none; }
 
-    .principles li {
-      padding: 0.35rem 0;
-      font-size: 0.85rem;
-      color: var(--text);
-    }
+    .en .principles li { padding: 0.3rem 0; font-size: 0.85rem; }
+    .en .principles li::before { content: '> '; color: var(--green); }
 
-    .principles li::before {
-      content: '> ';
-      color: var(--green);
-    }
+    .ar .principles li { padding: 0.3rem 0; font-size: 0.85rem; }
+    .ar .principles li::after { content: ' <'; color: var(--green); }
 
+    /* ── Footer ── */
     .footer {
+      text-align: center;
       color: var(--muted);
       font-size: 0.7rem;
       letter-spacing: 0.15em;
+      margin-top: 2rem;
     }
 
-    .footer a {
-      color: var(--dim-green);
-      text-decoration: none;
-    }
+    .footer a { color: var(--dim-green); text-decoration: none; }
+    .footer a:hover { color: var(--green); }
 
-    .footer a:hover {
-      color: var(--green);
-    }
-
+    /* ── Cursor ── */
     .cursor {
       display: inline-block;
       width: 0.6em;
@@ -176,31 +192,62 @@
 |_____||_/ \_\|_|    |______|\______|   |_|        \____/|_____/
 </pre>
 
-    <p class="tagline">We are Anonymous. We are Legion.</p>
-    <p class="tagline" style="direction:rtl; margin-top:0.4rem;">نحن مجهولون. نحن الفيلق.</p>
-    <p class="slogan">Expect Us. &nbsp;|&nbsp; توقعونا.<span class="cursor"></span></p>
+    <!-- ══ ENGLISH ══ -->
+    <div class="section en">
+      <p class="lang-label">// English</p>
+      <p class="tagline">We are Anonymous. We are Legion. We do not forgive. We do not forget.</p>
+      <p class="slogan">Expect Us.<span class="cursor"></span></p>
+
+      <div class="members">
+        <a class="member" href="https://github.com/hz8n" target="_blank" rel="noopener">
+          <div class="handle">@hz8n</div>
+          <div class="role">Founder</div>
+        </a>
+        <a class="member" href="https://github.com/36go" target="_blank" rel="noopener">
+          <div class="handle">@36go</div>
+          <div class="role">Core Member</div>
+        </a>
+      </div>
+
+      <div class="principles">
+        <h2>// Principles</h2>
+        <ul>
+          <li>Code is speech.</li>
+          <li>Open source by default.</li>
+          <li>No surveillance. No backdoors. No compromise.</li>
+          <li>Small team. Sharp focus.</li>
+        </ul>
+      </div>
+    </div>
 
     <hr class="divider" />
 
-    <div class="members">
-      <a class="member" href="https://github.com/hz8n" target="_blank" rel="noopener">
-        <div class="handle">@hz8n</div>
-        <div class="role">Founder | المؤسس</div>
-      </a>
-      <a class="member" href="https://github.com/36go" target="_blank" rel="noopener">
-        <div class="handle">@36go</div>
-        <div class="role">Core Member | عضو أساسي</div>
-      </a>
-    </div>
+    <!-- ══ ARABIC ══ -->
+    <div class="section ar">
+      <p class="lang-label">العربية //</p>
+      <p class="tagline">نحن مجهولون. نحن الفيلق. لا نسامح. لا ننسى.</p>
+      <p class="slogan">توقعونا.<span class="cursor"></span></p>
 
-    <div class="principles">
-      <h2>// Principles | المبادئ</h2>
-      <ul>
-        <li>Code is speech. &mdash; الكود هو الكلام.</li>
-        <li>Open source by default. &mdash; المصدر المفتوح هو الأصل.</li>
-        <li>No surveillance. No backdoors. No compromise. &mdash; لا مراقبة. لا أبواب خلفية. لا تنازل.</li>
-        <li>Small team. Sharp focus. &mdash; فريق صغير. تركيز حاد.</li>
-      </ul>
+      <div class="members">
+        <a class="member" href="https://github.com/36go" target="_blank" rel="noopener">
+          <div class="handle">@36go</div>
+          <div class="role">عضو أساسي</div>
+        </a>
+        <a class="member" href="https://github.com/hz8n" target="_blank" rel="noopener">
+          <div class="handle">@hz8n</div>
+          <div class="role">المؤسس</div>
+        </a>
+      </div>
+
+      <div class="principles">
+        <h2>المبادئ //</h2>
+        <ul>
+          <li>الكود هو الكلام.</li>
+          <li>المصدر المفتوح هو الأصل.</li>
+          <li>لا مراقبة. لا أبواب خلفية. لا تنازل.</li>
+          <li>فريق صغير. تركيز حاد.</li>
+        </ul>
+      </div>
     </div>
 
     <p class="footer">
